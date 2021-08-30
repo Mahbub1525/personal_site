@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 30 Aug 2021 22:19:36 at http://briefnarrative.pythonanywhere.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://briefnarrative.pythonanywhere.com/ -O1 "C:\Users\mahbu\Desktop\My_site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:19:36	Error: 	"INTERNAL SERVER ERROR" (500) after 2 retries at link briefnarrative.pythonanywhere.com/robots.txt (from primary/primary)
+22:28:52	Warning: 	file not stored in cache due to bogus state (broken size, expected 2953250 got 2775398): briefnarrative.pythonanywhere.com/static/assets/logo/ACE_1.jpg
+22:38:29	Warning: 	file not stored in cache due to bogus state (broken size, expected 1676327 got 252903): briefnarrative.pythonanywhere.com/static/assets/typo/LP_2.jpg
+22:43:10	Warning: 	file not stored in cache due to bogus state (broken size, expected 4413206 got 387039): briefnarrative.pythonanywhere.com/static/assets/logo/Lifeevent_1.jpg
+22:46:30	Warning: 	file not stored in cache due to bogus state (broken size, expected 9997336 got 1959514): briefnarrative.pythonanywhere.com/static/assets/logo/Brief narrative.png
+23:04:52	Warning: 	Retry after error -4 (Incorrect length (2775398 Bytes, 2953250 expected)) at link briefnarrative.pythonanywhere.com/static/assets/logo/ACE_1.jpg (from briefnarrative.pythonanywhere.com/works.html)
+23:23:38	Warning: 	Retry after error -4 (Incorrect length (252903 Bytes, 1676327 expected)) at link briefnarrative.pythonanywhere.com/static/assets/typo/LP_2.jpg (from briefnarrative.pythonanywhere.com/Others.html)
+23:23:55	Warning: 	Retry after error -4 (Incorrect length (1959514 Bytes, 9997336 expected)) at link briefnarrative.pythonanywhere.com/static/assets/logo/Brief narrative.png (from briefnarrative.pythonanywhere.com/Logo.html)
+23:24:29	Warning: 	Retry after error -4 (Incorrect length (387039 Bytes, 4413206 expected)) at link briefnarrative.pythonanywhere.com/static/assets/logo/Lifeevent_1.jpg (from briefnarrative.pythonanywhere.com/Logo.html)
+23:24:41	Warning: 	Retry after error -2 (Receive Time Out) at link briefnarrative.pythonanywhere.com/static/assets/logo/sparkle.png (from briefnarrative.pythonanywhere.com/Logo.html)
+23:26:46	Error: 	"NOT FOUND" (404) at link briefnarrative.pythonanywhere.com/static/assets/logo/nazrul.jpg (from briefnarrative.pythonanywhere.com/Logo.html)
+23:26:46	Warning: 	Retry after error 500 (INTERNAL SERVER ERROR) at link briefnarrative.pythonanywhere.com/work2.html (from briefnarrative.pythonanywhere.com/Movies_2.html)
+23:36:55	Warning: 	Retry after error 500 () at link briefnarrative.pythonanywhere.com/work2.html (from briefnarrative.pythonanywhere.com/Movies_2.html)
+23:36:55	Error: 	"" (500) after 2 retries at link briefnarrative.pythonanywhere.com/work2.html (from briefnarrative.pythonanywhere.com/Movies_2.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 17 minutes 19 seconds : 96 links scanned, 86 files written (106816015 bytes overall) [106490198 bytes received at 22955 bytes/sec], 458350 bytes transferred using HTTP compression in 17 files, ratio 22%, 1.2 requests per connection
+(3 errors, 11 warnings, 0 messages)
